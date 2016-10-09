@@ -1,0 +1,116 @@
+{
+  "device": "openaps://indy-e1", 
+  "pump": {
+    "battery": {
+      "status": "normal", 
+      "voltage": 1.55
+    }, 
+    "status": {
+      "status": "normal", 
+      "timestamp": "2016-10-09T10:24:39.000Z", 
+      "bolusing": false, 
+      "suspended": false
+    }, 
+    "reservoir": 113.825, 
+    "clock": "2016-10-09T03:24:50-07:00"
+  }, 
+  "uploader": {
+    "battery": 100, 
+    "batteryVoltage": 4368
+  }, 
+  "openaps": {
+    "suggested": {
+      "bg": 128, 
+      "temp": "absolute", 
+      "snoozeBG": 133, 
+      "timestamp": "2016-10-09T10:26:21.000Z", 
+      "reason": "COB: 0, Dev: -1, BGI: 1.2, ISF: 100, Target: 121; Eventual BG 133 >= 121, temp 0.5<0.75U/hr", 
+      "rate": 0.75, 
+      "COB": 0, 
+      "eventualBG": 133, 
+      "duration": 30, 
+      "tick": "+1", 
+      "IOB": -0.063
+    }, 
+    "iob": {
+      "netbasalinsulin": -0.25, 
+      "timestamp": "2016-10-09T10:24:50.000Z", 
+      "activity": -0.0024, 
+      "basaliob": -0.063, 
+      "hightempinsulin": 0.2, 
+      "bolussnooze": 0, 
+      "iob": -0.063
+    }, 
+    "enacted": {
+      "bg": 128, 
+      "temp": "absolute", 
+      "snoozeBG": 133, 
+      "recieved": true, 
+      "predBGs": {
+        "IOB": [
+          128, 
+          129, 
+          130, 
+          131, 
+          132, 
+          132, 
+          133, 
+          133, 
+          133, 
+          134, 
+          134, 
+          134, 
+          134, 
+          134, 
+          134, 
+          134, 
+          135, 
+          135, 
+          135, 
+          135, 
+          134
+        ]
+      }, 
+      "rate": 0.75, 
+      "reason": "COB: 0, Dev: -1, BGI: 1.2, ISF: 100, Target: 121; Eventual BG 133 >= 121, temp 0.5<0.75U/hr", 
+      "COB": 0, 
+      "eventualBG": 133, 
+      "timestamp": "2016-10-09T10:26:45.000Z", 
+      "duration": 30, 
+      "tick": "+1", 
+      "IOB": -0.063
+    }
+  }, 
+  "mmtune": {
+    "scanDetails": [
+      [
+        "916.564", 
+        3, 
+        -93
+      ], 
+      [
+        "916.588", 
+        2, 
+        -94
+      ], 
+      [
+        "916.612", 
+        2, 
+        -94
+      ], 
+      [
+        "916.636", 
+        2, 
+        -94
+      ], 
+      [
+        "916.684", 
+        1, 
+        -97
+      ]
+    ], 
+    "setFreq": 916.564, 
+    "timestamp": "2016-10-09T10:24:10.000Z", 
+    "usedDefault": false
+  }
+}
