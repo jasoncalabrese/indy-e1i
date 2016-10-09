@@ -1,6 +1,25 @@
 [
   {
     "_type": "TempBasalDuration", 
+    "_description": "TempBasalDuration 2016-10-09T15:37:56 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-09T15:37:56-07:00", 
+    "_body": "", 
+    "_head": "1601", 
+    "duration (min)": 30, 
+    "_date": "b8a50f4910"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-09T15:37:56 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-09T15:37:56-07:00", 
+    "_body": "00", 
+    "_head": "3300", 
+    "rate": 0.0, 
+    "_date": "b8a50f4910"
+  }, 
+  {
+    "_type": "TempBasalDuration", 
     "_description": "TempBasalDuration 2016-10-09T15:25:01 head[2], body[0] op[0x16]", 
     "timestamp": "2016-10-09T15:25:01-07:00", 
     "_body": "", 
@@ -3529,62 +3548,5 @@
     "_head": "3300", 
     "rate": 0.0, 
     "_date": "98b00c4810"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-08T12:34:54 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-08T12:34:54-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "b6a20c4810"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-08T12:34:54 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-08T12:34:54-07:00", 
-    "_body": "00", 
-    "_head": "3300", 
-    "rate": 0.0, 
-    "_date": "b6a20c4810"
-  }, 
-  {
-    "_type": "TempBasalDuration", 
-    "_description": "TempBasalDuration 2016-10-08T12:29:24 head[2], body[0] op[0x16]", 
-    "timestamp": "2016-10-08T12:29:24-07:00", 
-    "_body": "", 
-    "_head": "1601", 
-    "duration (min)": 30, 
-    "_date": "989d0c4810"
-  }, 
-  {
-    "_type": "TempBasal", 
-    "temp": "absolute", 
-    "_description": "TempBasal 2016-10-08T12:29:24 head[2], body[1] op[0x33]", 
-    "timestamp": "2016-10-08T12:29:24-07:00", 
-    "_body": "00", 
-    "_head": "3316", 
-    "rate": 0.55, 
-    "_date": "989d0c4810"
-  }, 
-  {
-    "_type": "BGReceived", 
-    "_description": "BGReceived 2016-10-08T12:27:54 head[2], body[3] op[0x3f]", 
-    "timestamp": "2016-10-08T12:27:54-07:00", 
-    "_body": "c23647", 
-    "_head": "3f07", 
-    "amount": 56, 
-    "link": "c23647", 
-    "_date": "b69b0c6810"
-  }, 
-  {
-    "_type": "CalBGForPH", 
-    "_description": "CalBGForPH 2016-10-08T12:27:54 head[2], body[0] op[0x0a]", 
-    "timestamp": "2016-10-08T12:27:54-07:00", 
-    "_body": "", 
-    "_head": "0a38", 
-    "amount": 56, 
-    "_date": "b69b2c6810"
   }
 ]
