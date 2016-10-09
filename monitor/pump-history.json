@@ -1,5 +1,24 @@
 [
   {
+    "_type": "TempBasalDuration", 
+    "duration (min)": 30, 
+    "_description": "TempBasalDuration 2016-10-09T12:28:43 head[2], body[0] op[0x16]", 
+    "timestamp": "2016-10-09T12:28:43", 
+    "_body": "", 
+    "_head": "1601", 
+    "_date": "ab9c0c4910"
+  }, 
+  {
+    "_type": "TempBasal", 
+    "temp": "absolute", 
+    "_description": "TempBasal 2016-10-09T12:28:43 head[2], body[1] op[0x33]", 
+    "timestamp": "2016-10-09T12:28:43", 
+    "_body": "00", 
+    "_head": "3339", 
+    "rate": 1.425, 
+    "_date": "ab9c0c4910"
+  }, 
+  {
     "programmed": 1.6, 
     "_type": "Bolus", 
     "_description": "Bolus 2016-10-09T12:23:49 head[8], body[0] op[0x01]", 
