@@ -3,75 +3,82 @@
   "pump": {
     "battery": {
       "status": "normal", 
-      "voltage": 1.54
+      "voltage": 1.55
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-09T13:57:25.000Z", 
+      "timestamp": "2016-10-09T14:03:37.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 113.025, 
-    "clock": "2016-10-09T06:57:14-07:00"
+    "reservoir": 112.95, 
+    "clock": "2016-10-09T07:03:36-07:00"
   }, 
   "uploader": {
     "battery": 100, 
-    "batteryVoltage": 4385
+    "batteryVoltage": 4372
   }, 
   "openaps": {
     "suggested": {
-      "bg": 108, 
+      "bg": 112, 
       "temp": "absolute", 
-      "snoozeBG": 129, 
-      "timestamp": "2016-10-09T13:59:48.000Z", 
+      "snoozeBG": 137, 
+      "timestamp": "2016-10-09T14:06:07.000Z", 
       "predBGs": {
         "IOB": [
-          108, 
-          108, 
-          109, 
-          109, 
-          110, 
-          111, 
           112, 
           113, 
           114, 
-          115, 
+          116, 
           117, 
+          118, 
           119, 
-          120, 
+          121, 
           122, 
           123, 
+          124, 
           125, 
+          126, 
+          126, 
+          127, 
+          127, 
           127, 
           128, 
-          129, 
-          131, 
-          132, 
-          133, 
-          134, 
-          135, 
-          135, 
-          136, 
-          137, 
-          137, 
-          137, 
-          138
+          128, 
+          127, 
+          127, 
+          127, 
+          127, 
+          126, 
+          126, 
+          125, 
+          125, 
+          125, 
+          124, 
+          124, 
+          123, 
+          123, 
+          122, 
+          122, 
+          122, 
+          122, 
+          121
         ]
       }, 
-      "reason": "COB: 0, Dev: -4, BGI: 0.9, ISF: 100, Target: 121; Eventual BG 129 > 121 but Min. Delta 0.24 < Exp. Delta 0.5, temp 0.45 ~ req 0.45U/hr", 
+      "reason": "COB: 0, Dev: 1, BGI: 1, ISF: 100, Target: 121; Eventual BG 137 >= 121, 29m@0.425 = 0.205 > req 0.16+20%. Setting temp basal of 0.8U/hr, but 29m left and 0.925 ~ req 0.8U/hr: no action required", 
       "COB": 0, 
-      "eventualBG": 129, 
-      "tick": "+2", 
-      "IOB": -0.283
+      "eventualBG": 137, 
+      "tick": "+4", 
+      "IOB": -0.27
     }, 
     "iob": {
-      "netbasalinsulin": -0.6, 
-      "timestamp": "2016-10-09T13:57:14.000Z", 
-      "activity": -0.0018, 
-      "basaliob": -0.283, 
+      "netbasalinsulin": -0.55, 
+      "timestamp": "2016-10-09T14:03:36.000Z", 
+      "activity": -0.002, 
+      "basaliob": -0.27, 
       "hightempinsulin": 0.15, 
       "bolussnooze": 0, 
-      "iob": -0.283
+      "iob": -0.27
     }, 
     "enacted": {
       "requested": {
@@ -103,36 +110,36 @@
       [
         "916.588", 
         5, 
-        -73
+        -75
       ], 
       [
         "916.612", 
         5, 
-        -71
+        -73
       ], 
       [
         "916.636", 
         5, 
-        -71
+        -74
       ], 
       [
         "916.660", 
         5, 
-        -71
+        -73
       ], 
       [
         "916.684", 
-        4, 
-        -78
+        5, 
+        -75
       ], 
       [
         "916.708", 
         5, 
-        -77
+        -81
       ]
     ], 
     "setFreq": 916.66, 
-    "timestamp": "2016-10-09T13:56:43.000Z", 
+    "timestamp": "2016-10-09T14:03:04.000Z", 
     "usedDefault": false
   }
 }
