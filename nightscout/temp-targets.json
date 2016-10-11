@@ -125,27 +125,5 @@
     "insulin": null, 
     "duration": 60, 
     "_id": "57faff1e65110bbfc1944679"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2016-10-09T22:06:39.683Z", 
-    "enteredBy": "Dad", 
-    "reason": "", 
-    "insulin": null, 
-    "duration": 0, 
-    "_id": "57fabf6f65110bbfc194462e"
-  }, 
-  {
-    "carbs": null, 
-    "eventType": "Temporary Target", 
-    "created_at": "2016-10-09T22:06:03.751Z", 
-    "targetBottom": 80, 
-    "enteredBy": "Dad", 
-    "targetTop": 80, 
-    "reason": "Eating Soon", 
-    "insulin": null, 
-    "duration": 60, 
-    "_id": "57fabf4b65110bbfc194462c"
   }
 ]
