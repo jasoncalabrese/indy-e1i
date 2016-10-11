@@ -1,12 +1,12 @@
 [
   {
-    "created_at": "2016-10-11T08:18:26.731Z", 
+    "created_at": "2016-10-11T08:24:38.756Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.564", 
-          5, 
-          -84
+          4, 
+          -87
         ], 
         [
           "916.588", 
@@ -21,27 +21,27 @@
         [
           "916.636", 
           5, 
-          -78
+          -79
         ], 
         [
           "916.660", 
           5, 
-          -78
+          -80
         ], 
         [
           "916.684", 
           5, 
-          -80
+          -77
         ], 
         [
           "916.708", 
           5, 
-          -87
+          -81
         ]
       ], 
-      "setFreq": 916.66, 
+      "setFreq": 916.684, 
       "usedDefault": false, 
-      "timestamp": "2016-10-11T08:15:39.000Z"
+      "timestamp": "2016-10-11T08:21:59.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,70 +50,76 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-11T08:16:04.000Z", 
+        "timestamp": "2016-10-11T08:22:19.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 144.975, 
-      "clock": "2016-10-11T01:16:14-07:00"
+      "reservoir": 144.95, 
+      "clock": "2016-10-11T01:22:31-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 126, 
+        "bg": 124, 
         "temp": "absolute", 
-        "snoozeBG": 109, 
-        "timestamp": "2016-10-11T08:18:18.000Z", 
+        "snoozeBG": 112, 
+        "timestamp": "2016-10-11T08:24:30.000Z", 
         "predBGs": {
           "IOB": [
-            126, 
-            123, 
-            121, 
-            118, 
+            124, 
+            122, 
+            120, 
+            119, 
+            117, 
             116, 
             114, 
+            113, 
+            113, 
             112, 
-            110, 
-            108, 
-            107, 
-            106, 
-            106, 
-            105, 
-            105, 
-            105, 
-            105, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            104, 
-            105
+            112, 
+            112, 
+            113, 
+            113, 
+            114, 
+            114, 
+            115, 
+            116, 
+            117, 
+            118, 
+            118, 
+            119, 
+            120, 
+            121, 
+            121, 
+            122, 
+            123, 
+            123, 
+            124, 
+            125, 
+            125, 
+            125, 
+            126, 
+            126, 
+            126, 
+            126, 
+            126, 
+            126, 
+            127
           ]
         }, 
-        "reason": "COB: 0, Dev: -12, BGI: 0.09, ISF: 90, Target: 115; Eventual BG 109 < 115, temp 0.25 ~< req 0.375U/hr", 
+        "reason": "COB: 0, Dev: -12, BGI: -0.05, ISF: 90, Target: 115; Eventual BG 112 < 115, temp 0.25 ~< req 0.525U/hr", 
         "COB": 0, 
-        "eventualBG": 109, 
-        "tick": -3, 
-        "IOB": 0.051
+        "eventualBG": 112, 
+        "tick": -2, 
+        "IOB": 0
       }, 
       "iob": {
-        "netbasalinsulin": -0.25, 
-        "timestamp": "2016-10-11T08:16:14.000Z", 
-        "activity": -0.0002, 
-        "basaliob": 0.051, 
+        "netbasalinsulin": -0.2, 
+        "timestamp": "2016-10-11T08:22:31.000Z", 
+        "activity": 0.0001, 
+        "basaliob": 0, 
         "hightempinsulin": 0.3, 
         "bolussnooze": 0, 
-        "iob": 0.051
+        "iob": 0
       }, 
       "enacted": {
         "bg": 129, 
@@ -132,9 +138,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4371
+      "batteryVoltage": 4376
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "57fca0527677bafb2da3c1e8"
+    "_id": "57fca1c67677bafb2da3c1ec"
   }
 ]
