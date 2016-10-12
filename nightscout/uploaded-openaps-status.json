@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-10-12T17:25:26.208Z", 
+    "created_at": "2016-10-12T17:31:41.258Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
           1, 
-          -97
+          -93
         ], 
         [
           "916.564", 
           5, 
-          -70
+          -60
         ], 
         [
           "916.588", 
-          5, 
-          -66
+          4, 
+          -69
         ], 
         [
           "916.612", 
           5, 
-          -65
+          -59
         ], 
         [
           "916.636", 
           5, 
-          -68
+          -52
         ], 
         [
           "916.660", 
           5, 
-          -68
+          -64
         ], 
         [
           "916.684", 
           5, 
-          -68
+          -70
         ]
       ], 
-      "setFreq": 916.612, 
+      "setFreq": 916.636, 
       "usedDefault": false, 
-      "timestamp": "2016-10-12T17:22:29.000Z"
+      "timestamp": "2016-10-12T17:28:53.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,117 +50,111 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-12T17:23:09.000Z", 
+        "timestamp": "2016-10-12T17:29:41.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 118.425, 
-      "clock": "2016-10-12T10:22:52-07:00"
+      "reservoir": 118.325, 
+      "clock": "2016-10-12T10:29:26-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 140, 
+        "bg": 139, 
         "temp": "absolute", 
-        "snoozeBG": 165, 
-        "timestamp": "2016-10-12T17:24:54.000Z", 
-        "rate": 0.65, 
-        "reason": "COB: 15, Dev: 11, BGI: -0.61, ISF: 82, Target: 110; Eventual BG 74 < 110, bolus snooze: eventual BG range 74-165; setting current basal of 0.65 as temp", 
-        "COB": 15, 
-        "eventualBG": 74, 
-        "duration": 30, 
+        "snoozeBG": 143, 
+        "timestamp": "2016-10-12T17:31:32.000Z", 
+        "predBGs": {
+          "aCOB": [
+            139, 
+            147, 
+            154, 
+            160, 
+            165, 
+            168, 
+            170, 
+            171, 
+            171, 
+            169, 
+            167, 
+            163, 
+            158, 
+            154, 
+            150, 
+            146, 
+            142, 
+            138, 
+            135, 
+            132, 
+            129, 
+            126, 
+            123, 
+            121, 
+            119, 
+            117, 
+            115, 
+            114, 
+            113, 
+            112, 
+            111, 
+            111, 
+            110
+          ], 
+          "IOB": [
+            139, 
+            138, 
+            137, 
+            135, 
+            133, 
+            131, 
+            128, 
+            125, 
+            122, 
+            118, 
+            114, 
+            110, 
+            105, 
+            101, 
+            97, 
+            93, 
+            89, 
+            85, 
+            82, 
+            79, 
+            76, 
+            73, 
+            70, 
+            68, 
+            66, 
+            64, 
+            62, 
+            61, 
+            60, 
+            59, 
+            58, 
+            58, 
+            57
+          ]
+        }, 
+        "reason": "COB: 14, Dev: 0, BGI: -0.94, ISF: 82, Target: 110; Eventual BG 59 < 110, bolus snooze: eventual BG range 59-143, temp 0.65 ~ req 0.65U/hr", 
+        "COB": 14, 
+        "eventualBG": 59, 
         "tick": -1, 
-        "IOB": 0.944
+        "IOB": 0.98
       }, 
       "iob": {
-        "netbasalinsulin": 0.25, 
-        "timestamp": "2016-10-12T17:22:52.000Z", 
-        "activity": 0.0015, 
-        "basaliob": 0.161, 
-        "hightempinsulin": 0.6, 
-        "bolussnooze": 0.742, 
-        "iob": 0.944
+        "netbasalinsulin": 0.3, 
+        "timestamp": "2016-10-12T17:29:26.000Z", 
+        "activity": 0.0023, 
+        "basaliob": 0.212, 
+        "hightempinsulin": 0.65, 
+        "bolussnooze": 0.683, 
+        "iob": 0.98
       }, 
       "enacted": {
         "bg": 140, 
         "temp": "absolute", 
         "snoozeBG": 165, 
         "recieved": true, 
-        "predBGs": {
-          "aCOB": [
-            140, 
-            148, 
-            155, 
-            162, 
-            167, 
-            171, 
-            173, 
-            175, 
-            175, 
-            175, 
-            173, 
-            170, 
-            165, 
-            160, 
-            156, 
-            151, 
-            146, 
-            142, 
-            137, 
-            133, 
-            130, 
-            126, 
-            122, 
-            119, 
-            116, 
-            114, 
-            111, 
-            109, 
-            107, 
-            105, 
-            104, 
-            103, 
-            102, 
-            102, 
-            101
-          ], 
-          "IOB": [
-            140, 
-            139, 
-            138, 
-            136, 
-            135, 
-            133, 
-            130, 
-            128, 
-            124, 
-            121, 
-            117, 
-            113, 
-            108, 
-            103, 
-            98, 
-            94, 
-            89, 
-            85, 
-            80, 
-            76, 
-            72, 
-            69, 
-            65, 
-            62, 
-            59, 
-            56, 
-            54, 
-            52, 
-            50, 
-            48, 
-            47, 
-            46, 
-            45, 
-            45, 
-            44
-          ]
-        }, 
         "reason": "COB: 15, Dev: 11, BGI: -0.61, ISF: 82, Target: 110; Eventual BG 74 < 110, bolus snooze: eventual BG range 74-165; setting current basal of 0.65 as temp", 
         "rate": 0.65, 
         "COB": 15, 
@@ -172,10 +166,10 @@
       }
     }, 
     "uploader": {
-      "battery": 71, 
-      "batteryVoltage": 3892
+      "battery": 72, 
+      "batteryVoltage": 3898
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "57fe72067447f6f15f153de7"
+    "_id": "57fe737d7447f6f15f153de8"
   }
 ]
