@@ -7,122 +7,108 @@
     }, 
     "status": {
       "status": "normal", 
-      "timestamp": "2016-10-12T17:33:57.000Z", 
+      "timestamp": "2016-10-12T17:37:19.000Z", 
       "bolusing": false, 
       "suspended": false
     }, 
-    "reservoir": 118.275, 
-    "clock": "2016-10-12T10:34:09-07:00"
+    "reservoir": 118.225, 
+    "clock": "2016-10-12T10:37:31-07:00"
   }, 
   "uploader": {
-    "battery": 71, 
-    "batteryVoltage": 3894
+    "battery": 72, 
+    "batteryVoltage": 3900
   }, 
   "openaps": {
     "suggested": {
-      "bg": 135, 
+      "bg": 128, 
       "temp": "absolute", 
-      "snoozeBG": 123, 
-      "timestamp": "2016-10-12T17:35:24.000Z", 
+      "snoozeBG": 96, 
+      "timestamp": "2016-10-12T17:38:59.000Z", 
+      "reason": "COB: 13, Dev: -25, BGI: -1.39, ISF: 82, Target: 110; Eventual BG 25 < 110, setting -0.025U/hr", 
+      "rate": 0, 
+      "COB": 13, 
+      "eventualBG": 25, 
+      "duration": 30, 
+      "tick": -7, 
+      "IOB": 0.954
+    }, 
+    "iob": {
+      "netbasalinsulin": 0.3, 
+      "timestamp": "2016-10-12T17:37:31.000Z", 
+      "activity": 0.0034, 
+      "basaliob": 0.213, 
+      "hightempinsulin": 0.65, 
+      "bolussnooze": 0.582, 
+      "iob": 0.954
+    }, 
+    "enacted": {
+      "bg": 128, 
+      "temp": "absolute", 
+      "snoozeBG": 96, 
+      "recieved": true, 
       "predBGs": {
         "aCOB": [
-          135, 
-          140, 
-          145, 
-          148, 
-          150, 
-          151, 
-          151, 
-          150, 
-          148, 
-          145, 
-          141, 
-          136, 
-          132, 
           128, 
-          124, 
-          120, 
-          116, 
-          113, 
-          110, 
-          107, 
+          131, 
+          132, 
+          133, 
+          133, 
+          133, 
+          131, 
+          129, 
+          125, 
+          121, 
+          117, 
+          112, 
+          108, 
           104, 
-          101, 
-          99, 
-          97, 
-          95, 
-          93, 
+          100, 
+          96, 
           92, 
-          91, 
-          90, 
           89, 
-          89, 
-          88
+          86, 
+          83, 
+          81, 
+          78, 
+          76, 
+          74, 
+          72, 
+          71, 
+          69, 
+          68, 
+          68, 
+          67
         ], 
         "IOB": [
-          135, 
-          131, 
-          127, 
-          124, 
-          120, 
+          128, 
+          121, 
           115, 
-          111, 
-          107, 
-          102, 
+          109, 
+          103, 
           97, 
-          92, 
-          88, 
-          83, 
+          91, 
+          85, 
           79, 
-          75, 
-          71, 
+          73, 
           68, 
-          64, 
-          61, 
-          58, 
+          63, 
+          59, 
           55, 
-          53, 
-          50, 
-          48, 
-          46, 
-          45, 
-          43, 
-          42, 
-          41, 
-          40, 
-          40, 
+          51, 
+          47, 
+          44, 
           40, 
           39
         ]
       }, 
-      "reason": "COB: 13, Dev: -10, BGI: -1.19, ISF: 82, Target: 110; Eventual BG 46 < 110, bolus snooze: eventual BG range 46-123, temp 0.65 ~ req 0.65U/hr", 
+      "rate": 0, 
+      "reason": "COB: 13, Dev: -25, BGI: -1.39, ISF: 82, Target: 110; Eventual BG 25 < 110, setting -0.025U/hr", 
       "COB": 13, 
-      "eventualBG": 46, 
-      "tick": -4, 
-      "IOB": 0.966
-    }, 
-    "iob": {
-      "netbasalinsulin": 0.3, 
-      "timestamp": "2016-10-12T17:34:09.000Z", 
-      "activity": 0.0029, 
-      "basaliob": 0.213, 
-      "hightempinsulin": 0.65, 
-      "bolussnooze": 0.628, 
-      "iob": 0.966
-    }, 
-    "enacted": {
-      "bg": 140, 
-      "temp": "absolute", 
-      "snoozeBG": 165, 
-      "recieved": true, 
-      "rate": 0.65, 
-      "reason": "COB: 15, Dev: 11, BGI: -0.61, ISF: 82, Target: 110; Eventual BG 74 < 110, bolus snooze: eventual BG range 74-165; setting current basal of 0.65 as temp", 
-      "COB": 15, 
-      "eventualBG": 74, 
-      "timestamp": "2016-10-12T17:25:17.000Z", 
+      "eventualBG": 25, 
+      "timestamp": "2016-10-12T17:39:20.000Z", 
       "duration": 30, 
-      "tick": -1, 
-      "IOB": 0.944
+      "tick": -7, 
+      "IOB": 0.954
     }
   }, 
   "mmtune": {
@@ -130,36 +116,36 @@
       [
         "916.564", 
         5, 
-        -62
+        -67
       ], 
       [
         "916.588", 
         5, 
-        -62
+        -64
       ], 
       [
         "916.612", 
         5, 
-        -56
+        -69
       ], 
       [
         "916.636", 
         5, 
-        -56
+        -70
       ], 
       [
         "916.660", 
         5, 
-        -59
+        -63
       ], 
       [
         "916.684", 
         5, 
-        -60
+        -69
       ]
     ], 
-    "setFreq": 916.636, 
-    "timestamp": "2016-10-12T17:33:37.000Z", 
+    "setFreq": 916.66, 
+    "timestamp": "2016-10-12T17:36:58.000Z", 
     "usedDefault": false
   }
 }
