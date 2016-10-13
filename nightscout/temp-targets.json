@@ -2,6 +2,15 @@
   {
     "carbs": null, 
     "eventType": "Temporary Target", 
+    "created_at": "2016-10-13T02:11:55.116Z", 
+    "enteredBy": "Maker", 
+    "insulin": null, 
+    "duration": 0, 
+    "_id": "57feed6b65110bbfc1944d27"
+  }, 
+  {
+    "carbs": null, 
+    "eventType": "Temporary Target", 
     "created_at": "2016-10-13T01:34:32.156Z", 
     "targetBottom": 80, 
     "enteredBy": "Maker", 
