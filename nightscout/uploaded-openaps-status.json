@@ -1,12 +1,12 @@
 [
   {
-    "created_at": "2016-10-15T11:53:53.471Z", 
+    "created_at": "2016-10-15T11:59:43.797Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.564", 
           5, 
-          -74
+          -77
         ], 
         [
           "916.588", 
@@ -16,7 +16,7 @@
         [
           "916.612", 
           5, 
-          -68
+          -70
         ], 
         [
           "916.636", 
@@ -31,17 +31,17 @@
         [
           "916.684", 
           5, 
-          -72
+          -71
         ], 
         [
           "916.708", 
           5, 
-          -83
+          -79
         ]
       ], 
-      "setFreq": 916.612, 
+      "setFreq": 916.66, 
       "usedDefault": false, 
-      "timestamp": "2016-10-15T11:50:56.000Z"
+      "timestamp": "2016-10-15T11:57:07.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,76 +50,75 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-15T11:51:17.000Z", 
+        "timestamp": "2016-10-15T11:57:28.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 123.9, 
-      "clock": "2016-10-15T04:51:30-07:00"
+      "reservoir": 123.7, 
+      "clock": "2016-10-15T04:57:41-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 98, 
+        "bg": 108, 
         "temp": "absolute", 
-        "snoozeBG": 168, 
-        "timestamp": "2016-10-15T11:53:45.000Z", 
+        "snoozeBG": 169, 
+        "timestamp": "2016-10-15T11:59:35.000Z", 
         "predBGs": {
           "IOB": [
-            98, 
-            105, 
-            111, 
-            117, 
-            123, 
-            128, 
-            133, 
+            108, 
+            116, 
+            124, 
+            131, 
             137, 
-            141, 
-            144, 
-            146, 
-            148, 
-            149, 
-            150, 
-            151, 
-            151, 
-            151, 
-            150, 
-            149, 
-            149, 
-            148, 
-            146, 
-            145, 
-            144, 
             143, 
+            148, 
+            152, 
+            155, 
+            158, 
+            160, 
+            161, 
+            161, 
+            160, 
+            159, 
+            158, 
+            157, 
+            155, 
+            153, 
+            151, 
+            148, 
+            146, 
+            144, 
             142, 
-            141, 
             140, 
-            139, 
             138, 
-            137, 
             136, 
-            136, 
-            135, 
-            135, 
             134, 
-            134, 
-            134, 
-            133
+            133, 
+            131, 
+            130, 
+            129, 
+            128, 
+            127, 
+            126, 
+            125, 
+            125, 
+            124
           ]
         }, 
-        "reason": "COB: 0, Dev: 25, BGI: 3.01, ISF: 90, Target: 115; Eventual BG 168 >= 115, temp 1.8 >~ req 1.7U/hr", 
+        "reason": "COB: 0, Dev: 33, BGI: 3.01, ISF: 90, Target: 115; Eventual BG 169 >= 115, temp 1.8 >~ req 1.7U/hr", 
         "COB": 0, 
-        "eventualBG": 168, 
-        "tick": "+12", 
-        "IOB": -0.502
+        "eventualBG": 169, 
+        "tick": "+10", 
+        "IOB": -0.311
       }, 
       "iob": {
-        "netbasalinsulin": -1.05, 
-        "timestamp": "2016-10-15T11:51:30.000Z", 
+        "netbasalinsulin": -0.8, 
+        "timestamp": "2016-10-15T11:57:41.000Z", 
         "activity": -0.0067, 
-        "basaliob": -0.502, 
-        "hightempinsulin": 0.05, 
+        "basaliob": -0.311, 
+        "hightempinsulin": 0.2, 
         "bolussnooze": 0, 
-        "iob": -0.502
+        "iob": -0.311
       }, 
       "enacted": {
         "bg": 57, 
@@ -138,9 +137,9 @@
     }, 
     "uploader": {
       "battery": 100, 
-      "batteryVoltage": 4376
+      "batteryVoltage": 4379
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "580218d1bf4d7ef63b14cae0"
+    "_id": "58021a2fbf4d7ef63b14cae3"
   }
 ]
