@@ -1,47 +1,47 @@
 [
   {
-    "created_at": "2016-10-16T23:05:21.307Z", 
+    "created_at": "2016-10-16T23:21:32.800Z", 
     "mmtune": {
       "scanDetails": [
         [
           "916.540", 
-          4, 
-          -96
+          3, 
+          -97
         ], 
         [
           "916.564", 
           5, 
-          -84
+          -89
         ], 
         [
           "916.588", 
           5, 
-          -83
+          -87
         ], 
         [
           "916.612", 
-          3, 
-          -91
+          5, 
+          -88
         ], 
         [
           "916.636", 
           5, 
-          -88
+          -89
         ], 
         [
           "916.660", 
           5, 
-          -88
+          -90
         ], 
         [
           "916.684", 
-          3, 
-          -95
+          5, 
+          -93
         ]
       ], 
       "setFreq": 916.588, 
       "usedDefault": false, 
-      "timestamp": "2016-10-16T23:02:51.000Z"
+      "timestamp": "2016-10-16T23:19:06.000Z"
     }, 
     "pump": {
       "battery": {
@@ -50,33 +50,33 @@
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-16T23:03:34.000Z", 
+        "timestamp": "2016-10-16T23:19:29.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 89.1, 
-      "clock": "2016-10-16T16:03:16-07:00"
+      "reservoir": 88.925, 
+      "clock": "2016-10-16T16:19:32-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "timestamp": "2016-10-16T23:05:12.000Z", 
-        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Oct 16 2016 15:49:04 GMT-0700 (PDT) but your system time is Sun Oct 16 2016 16:05:12 GMT-0700 (PDT)"
+        "timestamp": "2016-10-16T23:21:24.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Oct 16 2016 16:09:04 GMT-0700 (PDT) but your system time is Sun Oct 16 2016 16:21:24 GMT-0700 (PDT)"
       }, 
       "iob": {
         "netbasalinsulin": 0.9, 
-        "timestamp": "2016-10-16T23:03:16.000Z", 
-        "activity": 0.0114, 
-        "basaliob": 0.617, 
+        "timestamp": "2016-10-16T23:19:32.000Z", 
+        "activity": 0.0109, 
+        "basaliob": 0.474, 
         "hightempinsulin": 1.2, 
         "bolussnooze": 0, 
-        "iob": 0.723
+        "iob": 0.542
       }
     }, 
     "uploader": {
-      "battery": 87, 
-      "batteryVoltage": 4046
+      "battery": 85, 
+      "batteryVoltage": 4028
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "580407b1bf4d7ef63b14cd0d"
+    "_id": "58040b7cbf4d7ef63b14cd0e"
   }
 ]
