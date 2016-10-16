@@ -1,204 +1,77 @@
 [
   {
-    "created_at": "2016-10-16T22:47:36.110Z", 
+    "created_at": "2016-10-16T23:01:55.352Z", 
     "mmtune": {
       "scanDetails": [
         [
-          "916.540", 
-          3, 
-          -91
-        ], 
-        [
           "916.564", 
-          4, 
-          -80
+          5, 
+          -94
         ], 
         [
           "916.588", 
-          5, 
-          -77
+          4, 
+          -96
         ], 
         [
           "916.612", 
-          5, 
-          -78
+          3, 
+          -95
         ], 
         [
           "916.636", 
-          5, 
-          -79
+          3, 
+          -93
         ], 
         [
           "916.660", 
           5, 
-          -79
+          -90
         ], 
         [
           "916.684", 
-          4, 
-          -86
-        ], 
-        [
-          "916.708", 
-          2, 
-          -98
+          5, 
+          -89
         ]
       ], 
-      "setFreq": 916.588, 
+      "setFreq": 916.684, 
       "usedDefault": false, 
-      "timestamp": "2016-10-16T22:45:16.000Z"
+      "timestamp": "2016-10-16T22:59:57.000Z"
     }, 
     "pump": {
       "battery": {
         "status": "normal", 
-        "voltage": 1.46
+        "voltage": 1.45
       }, 
       "status": {
         "status": "normal", 
-        "timestamp": "2016-10-16T22:45:37.000Z", 
+        "timestamp": "2016-10-16T23:00:10.000Z", 
         "bolusing": false, 
         "suspended": false
       }, 
-      "reservoir": 89.3, 
-      "clock": "2016-10-16T15:45:50-07:00"
+      "reservoir": 89.15, 
+      "clock": "2016-10-16T16:00:22-07:00"
     }, 
     "openaps": {
       "suggested": {
-        "bg": 147, 
-        "temp": "absolute", 
-        "snoozeBG": 115, 
-        "timestamp": "2016-10-16T22:47:27.000Z", 
-        "predBGs": {
-          "COB": [
-            147, 
-            145, 
-            143, 
-            141, 
-            140, 
-            138, 
-            136, 
-            134, 
-            132, 
-            130, 
-            128, 
-            126, 
-            125, 
-            123, 
-            121, 
-            120, 
-            119, 
-            118, 
-            117, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            116, 
-            115
-          ], 
-          "aCOB": [
-            147, 
-            150, 
-            153, 
-            155, 
-            156, 
-            157, 
-            157, 
-            156, 
-            154, 
-            152, 
-            149, 
-            146, 
-            141, 
-            137, 
-            134, 
-            130, 
-            127, 
-            124, 
-            122, 
-            120, 
-            118, 
-            117, 
-            116, 
-            115, 
-            114, 
-            114, 
-            113, 
-            113, 
-            113, 
-            112
-          ], 
-          "IOB": [
-            147, 
-            145, 
-            142, 
-            140, 
-            138, 
-            135, 
-            132, 
-            128, 
-            125, 
-            121, 
-            117, 
-            113, 
-            109, 
-            105, 
-            101, 
-            98, 
-            95, 
-            92, 
-            90, 
-            88, 
-            86, 
-            85, 
-            84, 
-            83, 
-            82, 
-            81, 
-            81, 
-            80
-          ]
-        }, 
-        "reason": "COB: 12, Dev: 24, BGI: -6.07, ISF: 90, Target: 110; Eventual BG 115 >= 110, temp 0.675<0.7U/hr, but 26m left and 0.675 ~ req 0.7U/hr: no action required", 
-        "COB": 12, 
-        "eventualBG": 115, 
-        "tick": -2, 
-        "IOB": 0.934
+        "timestamp": "2016-10-16T23:01:46.000Z", 
+        "reason": "BG data is too old, or clock set incorrectly.  Your CGM time is Sun Oct 16 2016 15:49:04 GMT-0700 (PDT) but your system time is Sun Oct 16 2016 16:01:46 GMT-0700 (PDT)"
       }, 
       "iob": {
         "netbasalinsulin": 0.9, 
-        "timestamp": "2016-10-16T22:45:50.000Z", 
-        "activity": 0.0135, 
-        "basaliob": 0.765, 
+        "timestamp": "2016-10-16T23:00:22.000Z", 
+        "activity": 0.0115, 
+        "basaliob": 0.643, 
         "hightempinsulin": 1.2, 
-        "bolussnooze": 0.007, 
-        "iob": 0.934
-      }, 
-      "enacted": {
-        "bg": 149, 
-        "temp": "absolute", 
-        "snoozeBG": 112, 
-        "recieved": true, 
-        "reason": "COB: 13, Dev: 28, BGI: -6.21, ISF: 90, Target: 110; Eventual BG 112 >= 110, no temp, setting 0.675U/hr", 
-        "rate": 0.675, 
-        "COB": 13, 
-        "eventualBG": 112, 
-        "timestamp": "2016-10-16T22:41:41.000Z", 
-        "duration": 30, 
-        "tick": -1, 
-        "IOB": 1.033
+        "bolussnooze": 0, 
+        "iob": 0.757
       }
     }, 
     "uploader": {
-      "battery": 89, 
-      "batteryVoltage": 4067
+      "battery": 88, 
+      "batteryVoltage": 4061
     }, 
     "device": "openaps://indy-e1", 
-    "_id": "58040388bf4d7ef63b14cd0b"
+    "_id": "580406e3bf4d7ef63b14cd0c"
   }
 ]
